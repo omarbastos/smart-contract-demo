@@ -4,8 +4,8 @@ const Web3 = require('web3');
 const { abi, evm } = require('./compile');
 
 provider = new HDWalletProvider(
-    'wrestle carry cricket air wire blast hub kiwi talk pear name boss',
-    'https://rinkeby.infura.io/v3/4fec81eca5b342aab1d3388979456188'
+    'YOUR_MNEMONIC',
+    'YOUR_INFURA_URL'
 );
 
 const web3 = new Web3(provider);
